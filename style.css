@@ -30,7 +30,7 @@ li {
     padding: 5px 10px;
 }
 
-.github img {
+.reseaux img {
     width: 40px;
     margin-right: 10px;
 }
@@ -48,12 +48,12 @@ li {
 #cadre {
     display: flex;
     width: 80%;
-    height: 100vh;
     border-radius: 21px 21px 0 0;
     background-color: rgba(67, 157, 171, 0.5);
 }
 
 section {
+    height: 40vh;
     margin-bottom: 50px;
 }
 
@@ -70,7 +70,7 @@ h2 {
     height: 250px;
 }
 
-.text {
+.coordonnees {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -78,6 +78,15 @@ h2 {
     text-align: justify;
     color: #e1f1f5;
     height: 250px;
+}
+
+.line-horizontale {
+    border-top: 2px solid #e1f1f5;
+    padding-bottom: 50px;
+}
+
+.line-verticale {
+    border-right: 2px solid #e1f1f5;
 }
 
 .qualites {
@@ -88,4 +97,35 @@ h2 {
 .langues {
     font-size: 1.5rem;
     color: #e1f1f5;
+}
+
+.outils {
+    font-size: 1.5rem;
+    color: #e1f1f5;
+}
+
+.images {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.VSC {
+    margin-right: 10px;
+    width: 40px;
+}
+
+.intellij {
+    margin-right: 10px;
+    width: 40px;
+}
+
+.adobe {
+    margin-right: 10px;
+    width: 40px;
+}
+
+.github {
+    margin-right: 10px;
+    width: 40px;
 }
