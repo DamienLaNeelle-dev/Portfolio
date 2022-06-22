@@ -8,8 +8,13 @@ body {
     background-color: #e1f1f5;
 }
 
+
+/* Main page */
+
 .navbar {
     padding: 0;
+    position: fixed;
+    width: 100%;
 }
 
 .navbar-nav,
@@ -53,7 +58,6 @@ li {
 }
 
 section {
-    height: 40vh;
     margin-bottom: 50px;
 }
 
@@ -100,6 +104,8 @@ h2 {
 }
 
 .outils {
+    display: flex;
+    justify-content: center;
     font-size: 1.5rem;
     color: #e1f1f5;
 }
@@ -111,21 +117,124 @@ h2 {
 }
 
 .VSC {
-    margin-right: 10px;
+    margin-right: 20px;
     width: 40px;
+    margin-bottom: 10px;
 }
 
 .intellij {
-    margin-right: 10px;
+    margin-right: 20px;
     width: 40px;
+    margin-bottom: 10px;
 }
 
 .adobe {
-    margin-right: 10px;
+    margin-right: 20px;
     width: 40px;
+    margin-bottom: 10px;
 }
 
 .github {
-    margin-right: 10px;
+    margin-right: 20px;
+    width: 40px;
+    margin-bottom: 10px;
+}
+
+.gitkraken {
+    margin-right: 20px;
+    width: 40px;
+    margin-bottom: 10px;
+}
+
+.noms {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.progress {
+    margin-bottom: 37px;
+    margin-top: 10px;
+}
+
+.progress-bar {
+    background-color: rgba(67, 157, 171);
+}
+
+.hobbies {
+    display: flex;
+    justify-content: space-around;
+    color: #e1f1f5;
+    font-size: 1.5rem;
+}
+
+.hobbies-rubrique img {
+    width: 100px;
+    margin-top: 20px;
+}
+
+
+/* Compétences */
+
+.langages {
+    display: flex;
+    justify-content: center;
+    color: #e1f1f5;
+    font-size: 1.5rem;
+}
+
+.html-css {
+    margin-top: 5px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    width: 50px;
+}
+
+.js {
+    margin-right: 20px;
+    margin-bottom: 10px;
+    width: 40px;
+}
+
+.java {
+    margin-right: 20px;
+    margin-bottom: 15px;
+    width: 40px;
+}
+
+.python {
+    margin-right: 20px;
+    margin-bottom: 10px;
+    width: 40px;
+}
+
+.php {
+    margin-right: 20px;
+    margin-bottom: 10px;
+    width: 40px;
+}
+
+.frameworks {
+    display: flex;
+    justify-content: center;
+    color: #e1f1f5;
+    font-size: 1.5rem;
+}
+
+.bootstrap {
+    margin-right: 20px;
+    margin-bottom: 10px;
+    width: 40px;
+}
+
+.react {
+    margin-right: 20px;
+    margin-bottom: 10px;
+    width: 40px;
+}
+
+.hibernate {
+    margin-right: 20px;
+    margin-bottom: 10px;
     width: 40px;
 }

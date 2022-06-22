@@ -1,4 +1,4 @@
-var text = ["Développeur"];
+var text = ["Mes compétences"];
 text = text.map(i => i += '     ');
 let count = 0,
     index = 0;
